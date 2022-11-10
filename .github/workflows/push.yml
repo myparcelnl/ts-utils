@@ -7,9 +7,14 @@ on:
       - beta
 
 jobs:
+  test:
+    uses: ./.github/workflows/--test.yml
+    secrets: inherit
+
   release:
     name: 'Publish new release 🚀'
     runs-on: ubuntu-22.04
+    needs: test
     steps:
       - uses: actions/checkout@v3
         with:

@@ -18,20 +18,24 @@
   ],
   "scripts": {
     "build": "tsup src/index.ts -d lib --dts --format esm",
-    "prepare": "is-ci || husky install"
-  },
-  "release": {
-    "extends": "@myparcel/semantic-release-config/github-npm"
+    "prepare": "is-ci || husky install",
+    "test": "vitest",
+    "test:run": "vitest run"
   },
   "lint-staged": {
     "*.{js,ts}": "eslint --fix",
     "package.json": "sort-package-json"
   },
   "prettier": "@myparcel/prettier-config",
+  "release": {
+    "extends": "@myparcel/semantic-release-config/github-npm"
+  },
   "devDependencies": {
     "@myparcel-eslint/eslint-config-prettier-typescript": "^1.0.0-alpha.1",
     "@myparcel/semantic-release-config": "^4.0.0",
     "@types/glob": "^8.0.0",
+    "@types/node": "^18.11.9",
+    "@vitest/coverage-c8": "^0.25.1",
     "eslint": "^8.27.0",
     "glob": "^8.0.3",
     "husky": "^8.0.2",
@@ -41,7 +45,8 @@
     "sort-package-json": "^2.1.0",
     "ts-node": "^10.9.1",
     "tsup": "^6.4.0",
-    "typescript": "^4.8.4"
+    "typescript": "^4.8.4",
+    "vitest": "^0.25.1"
   },
   "packageManager": "yarn@3.2.4",
   "publishConfig": {

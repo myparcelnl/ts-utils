@@ -1,0 +1,4 @@
+{
+  "root": true,
+  "extends": "@myparcel-eslint/eslint-config-prettier-typescript"
+}

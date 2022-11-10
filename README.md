@@ -33,7 +33,7 @@ npm install @myparcel/ts-utils
 Type guard for checking if a value is a key of the given enum.
 
 ```ts
-import { isEnumValue } from '@myparcel/ts-utils';
+import {isEnumValue} from '@myparcel/ts-utils';
 
 enum MyEnum {
   A = 'A',
@@ -49,12 +49,12 @@ if (isEnumValue(MyEnum, value)) {
 
 #### [isInArray](src/type-guards/isInArray.ts)
 
-
 #### [isOfType](src/type-guards/isOfType.ts)
+
 Type guard for checking if an object value is of a specific type by checking if a given K exists.
 
 ```ts
-import { isOfType } from '@myparcel/ts-utils';
+import {isOfType} from '@myparcel/ts-utils';
 
 interface BaseObject {
   a: string;

@@ -2,6 +2,9 @@
 
 This is a collection of TypeScript utilities that we reuse across all TS projects.
 
+[![npm](https://img.shields.io/npm/v/@myparcel/ts-utils?labelColor=27272A&logoColor=FFFFFF&style=for-the-badge&color=CC3534&logo=npm)](https://www.npmjs.com/package/@myparcel/ts-utils/)
+[![Coverage Status](https://img.shields.io/codecov/c/github/myparcelnl/ts-utils?logo=codecov&style=for-the-badge)](https://codecov.io/gh/myparcelnl/ts-utils)
+
 ## Installation
 
 **Using Yarn**
@@ -22,11 +25,11 @@ pnpm add @myparcel/ts-utils
 npm install @myparcel/ts-utils
 ```
 
-> ⚠️ Note: You can install this package as a dev dependency if you are not using the type guards.
+> ⚠️ Note: You can install this package as a dev dependency if you only use the types.
 
 ## Contents
 
-### Type guards
+### [Type guards](src/type-guards)
 
 #### [isEnumValue](src/type-guards/isEnumValue.ts)
 
@@ -48,6 +51,16 @@ if (isEnumValue(MyEnum, value)) {
 ```
 
 #### [isInArray](src/type-guards/isInArray.ts)
+
+Type guard which checks if given value is inside an array.
+
+```ts
+import {isInArray} from '@myparcel/ts-utils';
+
+const value = 'A'; // value is of type 'A'
+
+isInArray(value, ['A', 'B']) // true
+```
 
 #### [isOfType](src/type-guards/isOfType.ts)
 
@@ -76,9 +89,18 @@ if (isOfType<ObjectWithC>(value, 'c')) {
 }
 ```
 
-### Types
+### [Types](src/types)
 
-### Utils
+### [Utils](src/utils)
 
 #### [toArray](src/utils/toArray.ts)
 
+Converts a value to an array. If the value is already an array, it will be returned as is.
+
+```ts
+import {toArray} from '@myparcel/ts-utils';
+
+toArray('plain value'); // ['plain value']
+
+toArray(['already an array']); // ['already an array']
+```

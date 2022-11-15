@@ -5,6 +5,7 @@ on:
     branches:
       - alpha
       - beta
+      - main
 
 jobs:
   test:

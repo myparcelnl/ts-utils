@@ -5,7 +5,7 @@ const config: UserConfigExport = {
     coverage: {
       100: true,
       enabled: true,
-      exclude: ['**/types/**'],
+      exclude: ['**/types/**', '**/__tests__/**'],
       reporter: ['text', 'clover'],
     },
   },

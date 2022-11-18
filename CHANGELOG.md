@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.0](https://github.com/myparcelnl/ts-utils/compare/v1.0.0...v1.1.0) (2022-11-18)
+
+
+### :sparkles: New Features
+
+* **utils:** add asyncEvery and asyncSome ([8366733](https://github.com/myparcelnl/ts-utils/commit/83667335a66392ac39ddefc1bccc9948ee47738e))
+
 ## 1.0.0 (2022-11-15)
 
 

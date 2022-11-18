@@ -12,7 +12,7 @@ jobs:
       - uses: myparcelnl/actions/yarn2-install@v2
 
       - name: 'Run tests'
-        run: yarn test:run
+        run: yarn test:run --coverage
 
       - uses: codecov/codecov-action@v3
         with:

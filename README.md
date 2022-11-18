@@ -93,6 +93,28 @@ if (isOfType<ObjectWithC>(value, 'c')) {
 
 ### [Utils](src/utils)
 
+#### [asyncEvery](src/utils/asyncEvery.ts)
+
+Returns true if every element in the array satisfies the provided predicate.
+
+```ts
+import {asyncEvery} from '@myparcel/ts-utils';
+
+await asyncEvery([1, 2, 3, 4, 5], async (value) => value > 0); // true
+await asyncEvery([1, 2, 3, 4, 5], async (value) => value > 1); // false
+```
+
+#### [asyncSome](src/utils/asyncSome.ts)
+
+Returns true if some element in the array satisfies the provided predicate.
+
+```ts
+import {asyncSome} from '@myparcel/ts-utils';
+
+await asyncSome([1, 2, 3, 4, 5], async (value) => value > 4); // true
+await asyncSome([1, 2, 3, 4, 5], async (value) => value > 5); // false
+```
+
 #### [toArray](src/utils/toArray.ts)
 
 Converts a value to an array. If the value is already an array, it will be returned as is.

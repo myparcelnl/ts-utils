@@ -1,4 +1,16 @@
 {
   "root": true,
-  "extends": "@myparcel-eslint/eslint-config-prettier-typescript"
+  "extends": "@myparcel-eslint/eslint-config-prettier-typescript",
+  "overrides": [
+    {
+      "files": [
+        "*.spec.*",
+        "**/__TESTS__/**/*"
+      ],
+      "rules": {
+        "@typescript-eslint/no-magic-numbers": "off",
+        "no-magic-numbers": "off"
+      }
+    }
+  ]
 }

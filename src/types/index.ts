@@ -1,4 +1,6 @@
+export * from './arrayWithOneOrMore';
 export * from './makeOptional';
+export * from './oneOrMore';
 export * from './promiseOr';
 export * from './readonlyOr';
 export * from './recursivePartial';

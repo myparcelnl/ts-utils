@@ -1,3 +1,3 @@
-export * from './isOfType';
-export * from './isInArray';
 export * from './isEnumValue';
+export * from './isInArray';
+export * from './isOfType';

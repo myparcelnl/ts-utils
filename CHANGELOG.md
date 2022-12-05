@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.0](https://github.com/myparcelnl/ts-utils/compare/v1.1.0...v1.2.0) (2022-12-05)
+
+
+### :sparkles: New Features
+
+* add oneOrMore and arrayWithOneOrMore ([518361b](https://github.com/myparcelnl/ts-utils/commit/518361b463474db71942e851e49cdb7f4a4096e8))
+
 ## [1.1.0](https://github.com/myparcelnl/ts-utils/compare/v1.0.0...v1.1.0) (2022-11-18)
 
 

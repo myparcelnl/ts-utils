@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.1](https://github.com/myparcelnl/ts-utils/compare/v1.2.0...v1.2.1) (2022-12-07)
+
+
+### :bug: Bug Fixes
+
+* **utils:** make toArray ignore null and undefined ([9197152](https://github.com/myparcelnl/ts-utils/commit/91971528405d816cba6ad0c239b1b11fc27a107c))
+
 ## [1.2.0](https://github.com/myparcelnl/ts-utils/compare/v1.1.0...v1.2.0) (2022-12-05)
 
 

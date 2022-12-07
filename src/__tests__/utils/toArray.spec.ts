@@ -13,4 +13,12 @@ describe('toArray', () => {
   it('splits string by separator', () => {
     expect(toArray('foo,bar', ',')).toEqual(['foo', 'bar']);
   });
+
+  it('ignores null', () => {
+    expect(toArray(null)).toEqual([]);
+  });
+
+  it('ignores undefined', () => {
+    expect(toArray(undefined)).toEqual([]);
+  });
 });

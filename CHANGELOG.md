@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.0](https://github.com/myparcelnl/ts-utils/compare/v1.2.1...v1.3.0) (2022-12-15)
+
+
+### :sparkles: New Features
+
+* add cjs build ([760ef9a](https://github.com/myparcelnl/ts-utils/commit/760ef9a85cd9f856f9619145faa40a69ec857cd4))
+
 ## [1.2.1](https://github.com/myparcelnl/ts-utils/compare/v1.2.0...v1.2.1) (2022-12-07)
 
 

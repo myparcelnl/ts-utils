@@ -11,13 +11,14 @@
   "license": "MIT",
   "author": "Edie Lemoine <edie@myparcel.nl>",
   "type": "module",
-  "main": "lib/index.js",
+  "main": "lib/index.cjs",
+  "module": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
     "lib"
   ],
   "scripts": {
-    "build": "tsup src/index.ts -d lib --dts --format esm",
+    "build": "tsup src/index.ts -d lib --dts --format esm,cjs",
     "prepare": "is-ci || husky install",
     "test": "vitest",
     "test:run": "vitest run"

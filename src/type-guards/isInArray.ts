@@ -1,6 +1,5 @@
+/* eslint-disable @typescript-eslint/no-explicit-any,@typescript-eslint/explicit-module-boundary-types */
 /**
  * Type guard which checks if given value is inside an array.
  */
-export function isInArray<T, A extends T>(item: T, array: readonly A[]): item is A {
-  return array.includes(item as A);
-}
+export const isInArray = <T extends readonly any[]>(value: any, array: T): value is T[number] => array.includes(value);

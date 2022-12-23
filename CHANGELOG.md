@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.1](https://github.com/myparcelnl/ts-utils/compare/v1.3.0...v1.3.1) (2022-12-23)
+
+
+### :bug: Bug Fixes
+
+* **type-guards:** make isInArray less strict ([6981132](https://github.com/myparcelnl/ts-utils/commit/6981132b9d7ed5f6c29a0a86d1e19ccec7186c0d))
+
 ## [1.3.0](https://github.com/myparcelnl/ts-utils/compare/v1.2.1...v1.3.0) (2022-12-15)
 
 

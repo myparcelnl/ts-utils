@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.4.0](https://github.com/myparcelnl/ts-utils/compare/v1.3.1...v1.4.0) (2023-01-27)
+
+
+### :sparkles: New Features
+
+* **utils:** add partitionArray ([39116d3](https://github.com/myparcelnl/ts-utils/commit/39116d3a440573b9b29739642ca499e8c560b352))
+
 ## [1.3.1](https://github.com/myparcelnl/ts-utils/compare/v1.3.0...v1.3.1) (2022-12-23)
 
 

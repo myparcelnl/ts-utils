@@ -7,6 +7,7 @@ exports[`exports > should export the correct files 1`] = `
   "isEnumValue": [Function],
   "isInArray": [Function],
   "isOfType": [Function],
+  "partitionArray": [Function],
   "toArray": [Function],
 }
 `;

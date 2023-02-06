@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.5.1](https://github.com/myparcelnl/ts-utils/compare/v1.5.0...v1.5.1) (2023-02-06)
+
+
+### :bug: Bug Fixes
+
+* update index ([55b4be0](https://github.com/myparcelnl/ts-utils/commit/55b4be0f411331d04d38d1504221d2f4b1ac1188))
+
 ## [1.5.0](https://github.com/myparcelnl/ts-utils/compare/v1.4.0...v1.5.0) (2023-02-06)
 
 

@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.5.0](https://github.com/myparcelnl/ts-utils/compare/v1.4.0...v1.5.0) (2023-02-06)
+
+
+### :sparkles: New Features
+
+* **utils:** add isUndefined ([8bd4a16](https://github.com/myparcelnl/ts-utils/commit/8bd4a16462343df5a73dc3abb02648681e060de6))
+* **utils:** add removePropertiesWith ([0e26272](https://github.com/myparcelnl/ts-utils/commit/0e26272c7055e7319bc30a55a533ecda8ef1498a))
+
 ## [1.4.0](https://github.com/myparcelnl/ts-utils/compare/v1.3.1...v1.4.0) (2023-01-27)
 
 

@@ -25,6 +25,7 @@
   },
   "lint-staged": {
     "*.{js,ts}": "eslint --fix",
+    "*.{json,md,yml}": "prettier --write",
     "package.json": "sort-package-json"
   },
   "prettier": "@myparcel/prettier-config",

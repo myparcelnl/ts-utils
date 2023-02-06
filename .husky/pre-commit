@@ -1,4 +1,6 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-npx -q lint-staged && yarn test:run
+npx -q ctix create -w --noBackup -a src
+npx -q lint-staged
+npx -q yarn test:run

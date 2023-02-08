@@ -9,6 +9,8 @@
       ],
       "rules": {
         "@typescript-eslint/no-magic-numbers": "off",
+        "max-classes-per-file": "off",
+        "max-lines-per-function": "off",
         "no-magic-numbers": "off"
       }
     }

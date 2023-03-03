@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.7.0](https://github.com/myparcelnl/ts-utils/compare/v1.6.0...v1.7.0) (2023-03-03)
+
+
+### :sparkles: New Features
+
+* **type-guards:** support other value types in isEnumValue ([30a5de2](https://github.com/myparcelnl/ts-utils/commit/30a5de2f48139a16871553cc91195f58434e8fa2))
+
 ## [1.6.0](https://github.com/myparcelnl/ts-utils/compare/v1.5.1...v1.6.0) (2023-02-08)
 
 

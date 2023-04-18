@@ -8,6 +8,7 @@ exports[`exports > should export the correct files 1`] = `
   "isInArray": [Function],
   "isOfType": [Function],
   "isUndefined": [Function],
+  "objectIsEqual": [Function],
   "partitionArray": [Function],
   "removePropertiesWith": [Function],
   "toArray": [Function],

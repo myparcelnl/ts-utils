@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.0](https://github.com/myparcelnl/ts-utils/compare/v1.8.0...v1.9.0) (2023-05-16)
+
+
+### :sparkles: New Features
+
+* **types:** add ReverseMap ([6cf505c](https://github.com/myparcelnl/ts-utils/commit/6cf505c3a7ccad7922ee489ad0c461e86b39dc06))
+
 ## [1.8.0](https://github.com/myparcelnl/ts-utils/compare/v1.7.0...v1.8.0) (2023-04-18)
 
 

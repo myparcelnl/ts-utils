@@ -1,4 +1,6 @@
 export * from './arrayWithOneOrMore';
+export * from './extractRecord';
+export * from './extractRecordKeys';
 export * from './makeOptional';
 export * from './oneOrMore';
 export * from './promiseOr';

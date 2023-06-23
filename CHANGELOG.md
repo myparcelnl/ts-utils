@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.10.0](https://github.com/myparcelnl/ts-utils/compare/v1.9.0...v1.10.0) (2023-06-23)
+
+
+### :sparkles: New Features
+
+* **types:** add ExtractRecord and ExtractRecordKeys ([#100](https://github.com/myparcelnl/ts-utils/issues/100)) ([251d4ed](https://github.com/myparcelnl/ts-utils/commit/251d4eddda2cb2fcb746b5027fa493685f291cf8))
+
 ## [1.9.0](https://github.com/myparcelnl/ts-utils/compare/v1.8.0...v1.9.0) (2023-05-16)
 
 

@@ -11,8 +11,10 @@
   "license": "MIT",
   "author": "Edie Lemoine <edie@myparcel.nl>",
   "type": "module",
-  "main": "lib/index.cjs",
-  "module": "lib/index.js",
+  "exports": {
+    "require": "./lib/index.cjs",
+    "import": "./lib/index.js"
+  },
   "types": "lib/index.d.ts",
   "files": [
     "lib"

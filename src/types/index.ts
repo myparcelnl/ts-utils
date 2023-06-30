@@ -10,4 +10,5 @@ export * from './recursiveRequired';
 export * from './replace';
 export * from './requireOnly';
 export * from './resolvePromise';
+export * from './maybe';
 export * from './reverseMap';

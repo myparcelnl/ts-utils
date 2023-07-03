@@ -39,7 +39,7 @@
     "@myparcel/semantic-release-config": "^4.2.3",
     "@types/glob": "^8.0.1",
     "@types/node": "^18.13.0",
-    "@vitest/coverage-c8": "^0.28.4",
+    "@vitest/coverage-c8": "^0.32.4",
     "eslint": "^8.33.0",
     "glob": "^8.1.0",
     "husky": "^8.0.3",

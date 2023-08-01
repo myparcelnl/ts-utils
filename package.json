@@ -23,7 +23,8 @@
     "build": "tsup src/index.ts -d lib --dts --format esm,cjs",
     "prepare": "is-ci || husky install",
     "test": "vitest",
-    "test:run": "vitest run"
+    "test:run": "vitest run",
+    "test:types": "tsc -p src/__tests__/types/tsconfig.test.json"
   },
   "lint-staged": {
     "*.{js,ts}": "eslint --fix",

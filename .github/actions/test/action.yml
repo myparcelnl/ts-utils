@@ -11,6 +11,10 @@ runs:
   steps:
     - uses: myparcelnl/actions/yarn-install@v3
 
+    - name: 'Test types'
+      shell: bash
+      run: yarn test:types
+
     - name: 'Run tests'
       shell: bash
       run: yarn test:run --coverage

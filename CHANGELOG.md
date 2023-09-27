@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.12.0](https://github.com/myparcelnl/ts-utils/compare/v1.11.0...v1.12.0) (2023-09-27)
+
+
+### :sparkles: New Features
+
+* **types:** add newable ([#120](https://github.com/myparcelnl/ts-utils/issues/120)) ([be0d7ae](https://github.com/myparcelnl/ts-utils/commit/be0d7aed6c6b4eb4415107853f93d72bc028d3e3))
+
 ## [1.11.0](https://github.com/myparcelnl/ts-utils/compare/v1.10.1...v1.11.0) (2023-06-30)
 
 

@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.13.0](https://github.com/myparcelnl/ts-utils/compare/v1.12.0...v1.13.0) (2023-12-06)
+
+
+### :sparkles: New Features
+
+* **types:** add ValueOf ([#132](https://github.com/myparcelnl/ts-utils/issues/132)) ([7f5899e](https://github.com/myparcelnl/ts-utils/commit/7f5899e478ab024fdaabf409596b548a098252c0))
+
 ## [1.12.0](https://github.com/myparcelnl/ts-utils/compare/v1.11.0...v1.12.0) (2023-09-27)
 
 

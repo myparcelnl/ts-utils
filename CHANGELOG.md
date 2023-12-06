@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.13.1](https://github.com/myparcelnl/ts-utils/compare/v1.13.0...v1.13.1) (2023-12-06)
+
+
+### :bug: Bug Fixes
+
+* export valueOf type so it can be used externally ([#133](https://github.com/myparcelnl/ts-utils/issues/133)) ([49d8284](https://github.com/myparcelnl/ts-utils/commit/49d8284e00abae3e1f3a618a92f3e2df80a69864))
+
 ## [1.13.0](https://github.com/myparcelnl/ts-utils/compare/v1.12.0...v1.13.0) (2023-12-06)
 
 

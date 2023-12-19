@@ -26,7 +26,7 @@ jobs:
         shell: bash
         #language=sh
         run: |
-          ARGS="${{ matrix.node-version == env.MAIN_NODE_VERSION ? '--coverage' : '' }}"
+          ARGS="${{ matrix.node-version == env.MAIN_NODE_VERSION && '--coverage' || '' }}"
 
           yarn test:run $ARGS
 

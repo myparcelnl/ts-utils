@@ -23,6 +23,8 @@ jobs:
           token: ${{ secrets.GH_REPO_TOKEN }}
 
       - uses: myparcelnl/actions/yarn-install@v3
+        with:
+          node-version: 20
 
       - name: 'Create build'
         run: yarn build

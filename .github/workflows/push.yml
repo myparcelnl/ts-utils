@@ -9,13 +9,8 @@ on:
 
 jobs:
   test:
-    runs-on: ubuntu-22.04
-    steps:
-      - uses: actions/checkout@v3
-
-      - uses: ./.github/actions/test
-        with:
-          codacy-api-token: ${{ secrets.CODACY_API_TOKEN }}
+    uses: ./.github/workflows/test.yml
+    secrets: inherit
 
   release:
     name: 'Publish new release 🚀'

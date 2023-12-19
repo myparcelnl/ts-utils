@@ -38,11 +38,9 @@
   "devDependencies": {
     "@myparcel-eslint/eslint-config-prettier-typescript": "^1.2.0",
     "@myparcel/semantic-release-config": "^5.0.0",
-    "@types/glob": "^8.0.1",
     "@types/node": "^20.0.0",
     "@vitest/coverage-v8": "^1.0.0",
     "eslint": "^8.33.0",
-    "glob": "^10.0.0",
     "husky": "^8.0.3",
     "is-ci": "^3.0.1",
     "lint-staged": "^15.0.0",

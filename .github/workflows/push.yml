@@ -24,7 +24,7 @@ jobs:
 
       - uses: myparcelnl/actions/yarn-install@v3
         with:
-          node-version: 20
+          node-version: ${{ vars.NODE_VERSION }}
 
       - name: 'Create build'
         run: yarn build

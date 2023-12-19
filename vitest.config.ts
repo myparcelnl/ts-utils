@@ -1,11 +1,12 @@
-import {UserConfigExport} from 'vitest/config';
+import {type UserConfigExport} from 'vitest/config';
 
 const config: UserConfigExport = {
   test: {
     coverage: {
-      100: true,
       enabled: false,
-      exclude: ['**/types/**', '**/__tests__/**'],
+      thresholds: {
+        '100': true,
+      },
       reporter: ['text', 'clover'],
     },
   },

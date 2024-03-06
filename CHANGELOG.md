@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.14.0](https://github.com/myparcelnl/ts-utils/compare/v1.13.1...v1.14.0) (2024-03-06)
+
+
+### :sparkles: New Features
+
+* **types:** add MakeRequired ([#134](https://github.com/myparcelnl/ts-utils/issues/134)) ([11d2dff](https://github.com/myparcelnl/ts-utils/commit/11d2dff26818c349cf8236c189c195b2bb206632))
+
 ## [1.13.1](https://github.com/myparcelnl/ts-utils/compare/v1.13.0...v1.13.1) (2023-12-06)
 
 

@@ -14,3 +14,4 @@ export * from './requireOnly';
 export * from './resolvePromise';
 export * from './reverseMap';
 export * from './valueOf';
+export * from './makeRequired';

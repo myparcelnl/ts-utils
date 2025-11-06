@@ -1,6 +1,6 @@
 {
-  "name": "@myparcel/ts-utils",
-  "version": "1.14.0",
+  "name": "@myparcel-dev/ts-utils",
+  "version": "2.0.0",
   "description": "TypeScript utilities",
   "keywords": [
     "typescript",
@@ -31,13 +31,13 @@
     "*.{json,md,yml}": "prettier --write",
     "package.json": "sort-package-json"
   },
-  "prettier": "@myparcel/prettier-config",
+  "prettier": "@myparcel-dev/prettier-config",
   "release": {
-    "extends": "@myparcel/semantic-release-config/github-npm"
+    "extends": "@myparcel-dev/semantic-release-config/github-npm"
   },
   "devDependencies": {
     "@myparcel-eslint/eslint-config-prettier-typescript": "^1.2.0",
-    "@myparcel/semantic-release-config": "^5.0.0",
+    "@myparcel-dev/semantic-release-config": "^6.0.0",
     "@types/node": "^20.0.0",
     "@vitest/coverage-v8": "^1.0.0",
     "eslint": "^8.33.0",

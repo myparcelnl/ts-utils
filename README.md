@@ -2,7 +2,7 @@
 
 This is a collection of TypeScript utilities that we reuse across all TS projects.
 
-[![npm](https://img.shields.io/npm/v/@myparcel/ts-utils?labelColor=27272A&logoColor=FFFFFF&style=for-the-badge&color=CC3534&logo=npm)](https://www.npmjs.com/package/@myparcel/ts-utils/)
+[![npm](https://img.shields.io/npm/v/@myparcel-dev/ts-utils?labelColor=27272A&logoColor=FFFFFF&style=for-the-badge&color=CC3534&logo=npm)](https://www.npmjs.com/package/@myparcel-dev/ts-utils/)
 [![Coverage Status](https://img.shields.io/codecov/c/github/myparcelnl/ts-utils?logo=codecov&style=for-the-badge)](https://codecov.io/gh/myparcelnl/ts-utils)
 
 ## Installation
@@ -10,19 +10,19 @@ This is a collection of TypeScript utilities that we reuse across all TS project
 **Using Yarn**
 
 ```bash
-yarn add @myparcel/ts-utils
+yarn add @myparcel-dev/ts-utils
 ```
 
 **Using pnpm**
 
 ```bash
-pnpm add @myparcel/ts-utils
+pnpm add @myparcel-dev/ts-utils
 ```
 
 **Using npm**
 
 ```bash
-npm install @myparcel/ts-utils
+npm install @myparcel-dev/ts-utils
 ```
 
 > ⚠️ Note: You can install this package as a dev dependency if you only use the types.
@@ -36,7 +36,7 @@ npm install @myparcel/ts-utils
 Type guard for checking if a value is a key of the given enum.
 
 ```ts
-import {isEnumValue} from '@myparcel/ts-utils';
+import {isEnumValue} from '@myparcel-dev/ts-utils';
 
 enum MyEnum {
   A = 'A',
@@ -55,7 +55,7 @@ if (isEnumValue(MyEnum, value)) {
 Type guard which checks if given value is inside an array.
 
 ```ts
-import {isInArray} from '@myparcel/ts-utils';
+import {isInArray} from '@myparcel-dev/ts-utils';
 
 const value = 'A'; // value is of type 'A'
 
@@ -67,7 +67,7 @@ isInArray(value, ['A', 'B']) // true
 Type guard for checking if an object value is of a specific type by checking if a given K exists.
 
 ```ts
-import {isOfType} from '@myparcel/ts-utils';
+import {isOfType} from '@myparcel-dev/ts-utils';
 
 interface BaseObject {
   a: string;
@@ -98,7 +98,7 @@ if (isOfType<ObjectWithC>(value, 'c')) {
 Returns true if every element in the array satisfies the provided predicate.
 
 ```ts
-import {asyncEvery} from '@myparcel/ts-utils';
+import {asyncEvery} from '@myparcel-dev/ts-utils';
 
 await asyncEvery([1, 2, 3, 4, 5], async (value) => value > 0); // true
 await asyncEvery([1, 2, 3, 4, 5], async (value) => value > 1); // false
@@ -109,7 +109,7 @@ await asyncEvery([1, 2, 3, 4, 5], async (value) => value > 1); // false
 Returns true if some element in the array satisfies the provided predicate.
 
 ```ts
-import {asyncSome} from '@myparcel/ts-utils';
+import {asyncSome} from '@myparcel-dev/ts-utils';
 
 await asyncSome([1, 2, 3, 4, 5], async (value) => value > 4); // true
 await asyncSome([1, 2, 3, 4, 5], async (value) => value > 5); // false
@@ -120,7 +120,7 @@ await asyncSome([1, 2, 3, 4, 5], async (value) => value > 5); // false
 Converts a value to an array. If the value is already an array, it will be returned as is.
 
 ```ts
-import {toArray} from '@myparcel/ts-utils';
+import {toArray} from '@myparcel-dev/ts-utils';
 
 toArray('plain value'); // ['plain value']
 

@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.15.0](https://github.com/myparcelnl/ts-utils/compare/v1.14.0...v1.15.0) (2025-11-20)
+
+
+### :sparkles: New Features
+
+* migrate to [@myparcel-dev](https://github.com/myparcel-dev) scope ([#135](https://github.com/myparcelnl/ts-utils/issues/135)) ([14f1e9f](https://github.com/myparcelnl/ts-utils/commit/14f1e9f92df0e84e2bcab32fc14e5abfb1ba91fc))
+
 ## [1.14.0](https://github.com/myparcelnl/ts-utils/compare/v1.13.1...v1.14.0) (2024-03-06)
 
 

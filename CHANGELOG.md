@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.15.1](https://github.com/myparcelnl/ts-utils/compare/v1.15.0...v1.15.1) (2026-02-19)
+
+
+### :bug: Bug Fixes
+
+* **ci:** use NPM_TOKEN secret name ([3b93f89](https://github.com/myparcelnl/ts-utils/commit/3b93f891ebf616460c2307ae47342f66f271cb3b))
+
 ## [1.15.0](https://github.com/myparcelnl/ts-utils/compare/v1.14.0...v1.15.0) (2025-11-20)
 
 

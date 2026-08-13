@@ -10,7 +10,7 @@ jobs:
       matrix:
         node-version: [18, 20]
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v7
 
       - uses: myparcelnl/actions/yarn-install@v3
         with:

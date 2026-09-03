@@ -1,4 +1,4 @@
-import {Newable} from '../../types';
+import {type Newable} from '../../types';
 
 interface TestInterface {
   doSomething(): void;

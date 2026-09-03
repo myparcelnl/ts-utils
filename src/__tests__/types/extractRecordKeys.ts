@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/ban-ts-comment,@typescript-eslint/no-unused-vars,@typescript-eslint/no-magic-numbers */
 // noinspection JSUnusedLocalSymbols
 
-import {ExtractRecordKeys} from '../../types';
+import {type ExtractRecordKeys} from '../../types';
 
 const correct1: ExtractRecordKeys<{a: number; b: string}, number> = 'a';
 const correct2: ExtractRecordKeys<{a: number; b: string}, string> = 'b';

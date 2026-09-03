@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import {ExtractRecord} from './extractRecord';
+import {type ExtractRecord} from './extractRecord';
 
 /**
  * Extracts the keys of a record whose values are assignable to the given type.

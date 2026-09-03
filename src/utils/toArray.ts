@@ -1,4 +1,4 @@
-import {OneOrMore} from '../types';
+import {type OneOrMore} from '../types';
 
 /**
  * Convert input to an array, if it's not already an array.

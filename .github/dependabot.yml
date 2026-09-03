@@ -13,4 +13,3 @@ updates:
       exclude:
         - '@myparcel/*'
         - '@myparcel-dev/*'
-        - '@myparcel-eslint/*'

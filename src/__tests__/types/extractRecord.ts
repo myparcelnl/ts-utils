@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/ban-ts-comment,@typescript-eslint/no-unused-vars,@typescript-eslint/no-magic-numbers */
 // noinspection JSUnusedLocalSymbols
 
-import {ExtractRecord} from '../../types';
+import {type ExtractRecord} from '../../types';
 
 interface User {
   name: string;

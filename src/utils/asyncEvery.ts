@@ -1,4 +1,4 @@
-import {PromiseOr} from '../types';
+import {type PromiseOr} from '../types';
 
 /**
  * Returns true if every element in the array satisfies the provided predicate.

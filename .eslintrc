@@ -1,6 +1,6 @@
 {
   "root": true,
-  "extends": "@myparcel-eslint/eslint-config-prettier-typescript",
+  "extends": "@myparcel-dev/eslint-config-prettier-typescript",
   "overrides": [
     {
       "files": [

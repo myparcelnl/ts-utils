@@ -2,10 +2,6 @@ name: 'Pull request'
 
 on:
   pull_request:
-    branches:
-      - alpha
-      - beta
-      - main
 
   merge_group:
 

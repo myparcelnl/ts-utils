@@ -17,19 +17,19 @@ jobs:
     runs-on: ubuntu-22.04
     needs: test
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v7
         with:
           fetch-depth: 0
           token: ${{ secrets.GH_REPO_TOKEN }}
 
-      - uses: myparcelnl/actions/yarn-install@v3
+      - uses: myparcelnl/actions/yarn-install@v4
         with:
           node-version: ${{ vars.NODE_VERSION }}
 
       - name: 'Create build'
         run: yarn build
 
-      - uses: myparcelnl/actions/semantic-release@v3
+      - uses: myparcelnl/actions/semantic-release@v4
         with:
           token: ${{ secrets.GH_REPO_TOKEN }}
         env:
@@ -40,13 +40,13 @@ jobs:
     if: always()
     runs-on: ubuntu-22.04
     steps:
-      - uses: myparcelnl/actions/setup-git-credentials@v3
+      - uses: myparcelnl/actions/setup-git-credentials@v4
         id: credentials
         with:
           app-id: ${{ secrets.MYPARCEL_APP_ID }}
           private-key: ${{ secrets.MYPARCEL_APP_PRIVATE_KEY }}
 
-      - uses: peter-evans/rebase@v2
+      - uses: peter-evans/rebase@v4
         with:
           token: ${{ steps.credentials.outputs.token }}
           base: ${{ github.ref_name }}

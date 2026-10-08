@@ -10,9 +10,9 @@ jobs:
       matrix:
         node-version: [18, 20]
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v7
 
-      - uses: myparcelnl/actions/yarn-install@v3
+      - uses: myparcelnl/actions/yarn-install@v4
         with:
           node-version: ${{ matrix.node-version }}
 
@@ -31,7 +31,7 @@ jobs:
           yarn test:run $ARGS
 
       - name: 'Upload coverage'
-        uses: codecov/codecov-action@v3
+        uses: codecov/codecov-action@v7
         if: matrix.node-version == vars.NODE_VERSION
         with:
           files: coverage/clover.xml

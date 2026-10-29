@@ -9,7 +9,7 @@ const config = defineConfig({
       thresholds: {
         '100': true,
       },
-      reporter: ['text', 'clover'],
+      reporter: ['text', 'lcov'],
     },
   },
 });

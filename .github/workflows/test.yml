@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-22.04
     strategy:
       matrix:
-        node-version: [18, 20]
+        node-version: [22, 24]
     steps:
       - uses: actions/checkout@v3
 
@@ -26,13 +26,13 @@ jobs:
         shell: bash
         #language=sh
         run: |
-          ARGS="${{ matrix.node-version == vars.NODE_VERSION && '--coverage' || '' }}"
+          ARGS="${{ matrix.node-version == 22 && '--coverage' || '' }}"
 
           yarn test:run $ARGS
 
       - name: 'Upload coverage'
         uses: codecov/codecov-action@v3
-        if: matrix.node-version == vars.NODE_VERSION
+        if: matrix.node-version == 22
         with:
-          files: coverage/clover.xml
+          files: coverage/lcov.info
           token: ${{ secrets.CODECOV_TOKEN }}

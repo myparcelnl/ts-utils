@@ -1,15 +1,17 @@
-import {type UserConfigExport} from 'vitest/config';
+import {defineConfig} from 'vitest/config';
 
-const config: UserConfigExport = {
+const config = defineConfig({
   test: {
     coverage: {
       enabled: false,
+      include: ['src/**/*.ts'],
+      exclude: ['src/__tests__/**'],
       thresholds: {
         '100': true,
       },
       reporter: ['text', 'clover'],
     },
   },
-};
+});
 
 export default config;

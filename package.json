@@ -8,6 +8,10 @@
     "utils",
     "type-guard"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/myparcelnl/ts-utils.git"
+  },
   "license": "MIT",
   "author": "Edie Lemoine <edie@myparcel.nl>",
   "type": "module",

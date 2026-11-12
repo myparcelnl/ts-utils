@@ -3,6 +3,8 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.15.6](https://github.com/myparcelnl/ts-utils/compare/v1.15.5...v1.15.6) (2026-11-12)
+
 ## [1.15.5](https://github.com/myparcelnl/ts-utils/compare/v1.15.4...v1.15.5) (2026-11-12)
 
 ## [1.15.4](https://github.com/myparcelnl/ts-utils/compare/v1.15.3...v1.15.4) (2026-10-29)

@@ -12,7 +12,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@actions/core@npm:3.0.1, @actions/core@npm:^3.0.0":
+"@actions/core@npm:^3.0.0":
   version: 3.0.1
   resolution: "@actions/core@npm:3.0.1"
   dependencies:
@@ -45,48 +45,6 @@ __metadata:
   version: 3.0.2
   resolution: "@actions/io@npm:3.0.2"
   checksum: 25fae323886544f965e90ab9655e3fb60816eb379c78418c4b06a5dc9da27810eb5b0bd0629146dbd5482a03e3c60a5b8713223e4f789abede23df643ddcae8c
-  languageName: node
-  linkType: hard
-
-"@anolilab/rc@npm:4.0.9":
-  version: 4.0.9
-  resolution: "@anolilab/rc@npm:4.0.9"
-  dependencies:
-    ini: "npm:^7.0.0"
-    ts-deepmerge: "npm:^8.0.0"
-  checksum: f957562b6d0c814aa51ffef7dd35f724bd81b189233a06884542bba65f8dd5fe7676e7f93bcd38aeb38de13d5109d4189cf240f9f81a697b8209a1eac28aa0e0
-  languageName: node
-  linkType: hard
-
-"@anolilab/semantic-release-pnpm@npm:^8.1.36":
-  version: 8.1.37
-  resolution: "@anolilab/semantic-release-pnpm@npm:8.1.37"
-  dependencies:
-    "@actions/core": "npm:3.0.1"
-    "@anolilab/rc": "npm:4.0.9"
-    "@semantic-release/error": "npm:^4.0.0"
-    "@visulima/fs": "npm:^7.0.0"
-    "@visulima/package": "npm:5.0.43"
-    "@visulima/path": "npm:^3.1.0"
-    debug: "npm:^4.4.3"
-    detect-indent: "npm:^7.0.2"
-    env-ci: "npm:^11.2.0"
-    execa: "npm:^10.2.1"
-    ini: "npm:^7.0.0"
-    normalize-url: "npm:9.0.1"
-    registry-auth-token: "npm:5.1.1"
-    semver: "npm:7.8.5"
-  checksum: 0b73760a36217183f0994e7e67cf84d97c207128a241bc05ed173a35f0d7a0f836d8055634cc5f46f999fbca580510a5c071cc93d80d32df79e9b6caac110bd7
-  languageName: node
-  linkType: hard
-
-"@antfu/install-pkg@npm:^2.0.1":
-  version: 2.1.0
-  resolution: "@antfu/install-pkg@npm:2.1.0"
-  dependencies:
-    package-manager-detector: "npm:^1.8.0"
-    tinyexec: "npm:^1.3.1"
-  checksum: b4f448a7ffb6d4b5a2fabbdecc3d619e2dfb01cb4ab030d04cfda3b8d98c62c6bea795ae181716c2d5cd97f10d78bfbee892fa7319a8bb3b469df8648bdf1755
   languageName: node
   linkType: hard
 
@@ -637,21 +595,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@myparcel-dev/semantic-release-config@npm:^8.1.0":
-  version: 8.1.0
-  resolution: "@myparcel-dev/semantic-release-config@npm:8.1.0"
+"@myparcel-dev/semantic-release-config@npm:^7.0.4":
+  version: 7.0.4
+  resolution: "@myparcel-dev/semantic-release-config@npm:7.0.4"
   dependencies:
-    "@anolilab/semantic-release-pnpm": "npm:^8.1.36"
     "@iwavesmedia/semantic-release-composer": "npm:^1.0.0"
     "@semantic-release/changelog": "npm:^6.0.1"
     "@semantic-release/commit-analyzer": "npm:^14.0.0-beta.4"
     "@semantic-release/exec": "npm:^7.1.0"
     "@semantic-release/git": "npm:^10.0.1"
     "@semantic-release/github": "npm:^12.0.9"
+    "@semantic-release/npm": "npm:^13.1.5"
     "@semantic-release/release-notes-generator": "npm:^15.0.0-beta.3"
     conventional-changelog-conventionalcommits: "npm:^10.4.1"
     semantic-release: "npm:^25.0.9"
-  checksum: 27c251cf41565b4700899d19e6acc2f4b8938c8a1bc10d0b9d7430f95bb4fd27f150c3c468b9d1fa3ef1a72ede3c31d2fce1b8c24896446bb7cb1950e1e12f91
+  checksum: d8f3c9f4c7187f0af529b8f74b4a9881456262836208ce5f69e19ff9753225395b618bda2c3dc681e46bd0130c2bc6d984c9945591eecb42a548061cb037bd23
   languageName: node
   linkType: hard
 
@@ -661,7 +619,7 @@ __metadata:
   dependencies:
     "@myparcel-dev/eslint-config-prettier-typescript": "npm:^1.4.0"
     "@myparcel-dev/prettier-config": "npm:^2.0.1"
-    "@myparcel-dev/semantic-release-config": "npm:^8.1.0"
+    "@myparcel-dev/semantic-release-config": "npm:^7.0.4"
     "@types/node": "npm:^22.20.5"
     "@vitest/coverage-v8": "npm:^5.0.5"
     eslint: "npm:^8.33.0"
@@ -1118,17 +1076,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pnpm/npm-conf@npm:^3.0.2":
-  version: 3.0.3
-  resolution: "@pnpm/npm-conf@npm:3.0.3"
-  dependencies:
-    "@pnpm/config.env-replace": "npm:^1.1.0"
-    "@pnpm/network.ca-file": "npm:^1.0.1"
-    config-chain: "npm:^1.1.11"
-  checksum: 74a276b4acf609edd60300afef3e5c632ecf9f3e9b9da486314edd0478964815f4a03e9c9b1e0cb1f38e2acfef07e5c2d3211527b8f97a0c44cbb040f2755e5c
-  languageName: node
-  linkType: hard
-
 "@rolldown/binding-android-arm-eabi@npm:1.2.15":
   version: 1.2.15
   resolution: "@rolldown/binding-android-arm-eabi@npm:1.2.15"
@@ -1555,7 +1502,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/npm@npm:^13.1.1":
+"@semantic-release/npm@npm:^13.1.1, @semantic-release/npm@npm:^13.1.5":
   version: 13.2.0
   resolution: "@semantic-release/npm@npm:13.2.0"
   dependencies:
@@ -1927,104 +1874,6 @@ __metadata:
   version: 1.2.0
   resolution: "@ungap/structured-clone@npm:1.2.0"
   checksum: 8209c937cb39119f44eb63cf90c0b73e7c754209a6411c707be08e50e29ee81356dca1a848a405c8bdeebfe2f5e4f831ad310ae1689eeef65e7445c090c6657d
-  languageName: node
-  linkType: hard
-
-"@visulima/fs@npm:6.1.0":
-  version: 6.1.0
-  resolution: "@visulima/fs@npm:6.1.0"
-  dependencies:
-    "@visulima/path": "npm:4.0.0"
-  peerDependencies:
-    "@visulima/yaml": 1.0.0
-    ini: ^7.0.0
-    json5: ^2.2.3
-    jsonc-parser: ^3.3.1
-    smol-toml: ^1.8.1
-  peerDependenciesMeta:
-    "@visulima/yaml":
-      optional: true
-    ini:
-      optional: true
-    json5:
-      optional: true
-    jsonc-parser:
-      optional: true
-    smol-toml:
-      optional: true
-  conditions: (os=darwin | os=linux | os=win32)
-  languageName: node
-  linkType: hard
-
-"@visulima/fs@npm:^7.0.0":
-  version: 7.0.1
-  resolution: "@visulima/fs@npm:7.0.1"
-  dependencies:
-    "@visulima/path": "npm:5.0.0"
-  peerDependencies:
-    "@visulima/yaml": 2.0.0
-    ini: ^7.0.0
-    json5: ^2.2.3
-    jsonc-parser: ^3.3.1
-    smol-toml: ^1.8.1
-  peerDependenciesMeta:
-    "@visulima/yaml":
-      optional: true
-    ini:
-      optional: true
-    json5:
-      optional: true
-    jsonc-parser:
-      optional: true
-    smol-toml:
-      optional: true
-  conditions: (os=darwin | os=linux | os=win32)
-  languageName: node
-  linkType: hard
-
-"@visulima/package@npm:5.0.43":
-  version: 5.0.43
-  resolution: "@visulima/package@npm:5.0.43"
-  dependencies:
-    "@antfu/install-pkg": "npm:^2.0.1"
-    "@visulima/fs": "npm:6.1.0"
-    "@visulima/path": "npm:4.0.0"
-    "@visulima/yaml": "npm:1.0.0"
-    json5: "npm:^2.2.3"
-    normalize-package-data: "npm:^9.0.0"
-  checksum: ffb3385cefbd12e81e0cd6f81137fadf75aba6aa71f1c9a6841f6d9db5301bb0838a399eaf94c2c88361b3cfabcf3a17a47efefcdee26054f888f92bc9e507cf
-  conditions: (os=darwin | os=linux | os=win32)
-  languageName: node
-  linkType: hard
-
-"@visulima/path@npm:4.0.0":
-  version: 4.0.0
-  resolution: "@visulima/path@npm:4.0.0"
-  checksum: 1c025edbd1c20465c17c5d531222720593014ee8f0fe7585fe420261ad65e41587d29847b771b33310f7104d4246fbcbbf977e0f40cc15ae2efdb781bf57ed93
-  conditions: (os=darwin | os=linux | os=win32)
-  languageName: node
-  linkType: hard
-
-"@visulima/path@npm:5.0.0":
-  version: 5.0.0
-  resolution: "@visulima/path@npm:5.0.0"
-  checksum: 2ae43239a73bc843e76b105a4ab83766b111cc75728f5844a57139556248983bb3c5c9f836a48afb1ab4f8db2c25e71961136b18dc56fb573bd09edacc3353c4
-  conditions: (os=darwin | os=linux | os=win32)
-  languageName: node
-  linkType: hard
-
-"@visulima/path@npm:^3.1.0":
-  version: 3.1.0
-  resolution: "@visulima/path@npm:3.1.0"
-  checksum: bae11c7e61143854965483aca8f0a3dc9af2799aa5a35342f3398c09225e40f48501e893c48711c2be25533e83cf1d7d13860796002a51a98f8ae99cb9867455
-  conditions: (os=darwin | os=linux | os=win32)
-  languageName: node
-  linkType: hard
-
-"@visulima/yaml@npm:1.0.0":
-  version: 1.0.0
-  resolution: "@visulima/yaml@npm:1.0.0"
-  checksum: 8ae3be69efd1988e18fc7fcc5faacaa6b13051fed4e40fbf4914ae639a76acf52878005dabcc933b045dcaae448eea25ec433754e0da2710aae29798df037490
   languageName: node
   linkType: hard
 
@@ -2999,13 +2848,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"detect-indent@npm:^7.0.2":
-  version: 7.0.2
-  resolution: "detect-indent@npm:7.0.2"
-  checksum: adb1334ca3fe516dc6817aff0a777540b88643ab92fe13a72d0f5d12721ca796ffdd0e5fedb7b45e6e82657156c6ad44f5d5758157f0439532ae7d07b595146b
-  languageName: node
-  linkType: hard
-
 "detect-libc@npm:^2.0.3":
   version: 2.1.2
   resolution: "detect-libc@npm:2.1.2"
@@ -3462,26 +3304,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"execa@npm:^10.2.1":
-  version: 10.2.1
-  resolution: "execa@npm:10.2.1"
-  dependencies:
-    "@sindresorhus/merge-streams": "npm:^4.0.0"
-    figures: "npm:^6.1.0"
-    get-stream: "npm:^9.0.1"
-    human-signals: "npm:^8.0.1"
-    is-plain-obj: "npm:^4.1.0"
-    is-stream: "npm:^4.0.1"
-    npm-run-path: "npm:^6.0.0"
-    pretty-ms: "npm:^9.3.1"
-    signal-exit: "npm:^4.1.0"
-    strip-final-newline: "npm:^4.0.0"
-    which-command: "npm:^0.1.0"
-    yoctocolors: "npm:^2.2.0"
-  checksum: 56024ace832edaa08562e73b9746f57751b6d9f458be5640b86b53e10a7cc2cc878a79e92ff22791ae04a3d61421e73096c86595559231a2225f40fcdcb9f5ea
-  languageName: node
-  linkType: hard
-
 "execa@npm:^5.0.0":
   version: 5.1.1
   resolution: "execa@npm:5.1.1"
@@ -3824,7 +3646,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"get-stream@npm:^9.0.0, get-stream@npm:^9.0.1":
+"get-stream@npm:^9.0.0":
   version: 9.0.1
   resolution: "get-stream@npm:9.0.1"
   dependencies:
@@ -4022,15 +3844,6 @@ __metadata:
   version: 4.0.0
   resolution: "hook-std@npm:4.0.0"
   checksum: d7358c5495d56a1ded58438b8d5c9bfa4896118c7734fb4ac5a5f823b5252ac219b334c0003113cbda12d024f6a178b00fd68bc4c4f756f6a5347b8be1cf814b
-  languageName: node
-  linkType: hard
-
-"hosted-git-info@npm:^10.1.0":
-  version: 10.1.1
-  resolution: "hosted-git-info@npm:10.1.1"
-  dependencies:
-    lru-cache: "npm:^11.1.0"
-  checksum: cabc45fe4b429bbff051899f9f74982e05bcded72ced74ffbad3fceae64b34b643df57f780c896ea8a774188948e9ff1faed33322a7de89c64ac6c3be3efac76
   languageName: node
   linkType: hard
 
@@ -4248,13 +4061,6 @@ __metadata:
   version: 6.0.0
   resolution: "ini@npm:6.0.0"
   checksum: 9a7f55f306e2b25b41ae67c8b526e8f4673f057b70852b9025816ef4f15f07bf1ba35ed68ea4471ff7b31718f7ef1bc50d709f8d03cb012e10a3135eb99c7206
-  languageName: node
-  linkType: hard
-
-"ini@npm:^7.0.0":
-  version: 7.0.0
-  resolution: "ini@npm:7.0.0"
-  checksum: 7520cae38bd5587e1cbca4637bb5fc0e157f38e0816522756456010ef703772d0018f9f4987cb9977bf3b10c1feccaad7800744dd1f5d85fb435e58a1baa9754
   languageName: node
   linkType: hard
 
@@ -4570,15 +4376,6 @@ __metadata:
   version: 3.5.12
   resolution: "json-with-bigint@npm:3.5.12"
   checksum: 3c205a445ee946bbe2409fb3e1840617eb0bac9086934ed55fefbd584c8d5bfd288bdc9a44acc8e5ca4d1ccf83b5c2ebd63add5ef4b5ca656ef4f968bf832e79
-  languageName: node
-  linkType: hard
-
-"json5@npm:^2.2.3":
-  version: 2.2.3
-  resolution: "json5@npm:2.2.3"
-  bin:
-    json5: lib/cli.js
-  checksum: 5a04eed94810fa55c5ea138b2f7a5c12b97c3750bc63d11e511dcecbfef758003861522a070c2272764ee0f4e3e323862f386945aeb5b85b87ee43f084ba586c
   languageName: node
   linkType: hard
 
@@ -5592,18 +5389,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"normalize-package-data@npm:^9.0.0":
-  version: 9.0.0
-  resolution: "normalize-package-data@npm:9.0.0"
-  dependencies:
-    hosted-git-info: "npm:^10.1.0"
-    semver: "npm:^7.3.5"
-    validate-npm-package-license: "npm:^3.0.4"
-  checksum: 510182b76e96adf6c9ebde55d407104698e2a20d61582073fab7d496236f02abc1f0f5210a13ffbdf083f24ddc94947b7e5b045859fc4ec01af27f2effb5fd78
-  languageName: node
-  linkType: hard
-
-"normalize-url@npm:9.0.1, normalize-url@npm:^9.0.0":
+"normalize-url@npm:^9.0.0":
   version: 9.0.1
   resolution: "normalize-url@npm:9.0.1"
   checksum: fedcc5247819386494599f487dac2166944999eecfa0efeb3e9a6041aa77ff1656cc1495cbcd9cee202fea3dea51c1e9fc8b7f0fd332e0480b5863f12b60dc33
@@ -5973,13 +5759,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"package-manager-detector@npm:^1.8.0":
-  version: 1.9.0
-  resolution: "package-manager-detector@npm:1.9.0"
-  checksum: c901b08e9d284e9b517d27be1783fc279f3e814fac9de4c30441129a3a4b1475b16314ff95b98268daf49e20d5076478c50bc7b1b3ff8a591eb39f03f02dbb16
-  languageName: node
-  linkType: hard
-
 "pacote@npm:^21.0.0, pacote@npm:^21.0.2, pacote@npm:^21.5.2":
   version: 21.5.3
   resolution: "pacote@npm:21.5.3"
@@ -6292,7 +6071,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pretty-ms@npm:^9.2.0, pretty-ms@npm:^9.3.1":
+"pretty-ms@npm:^9.2.0":
   version: 9.3.1
   resolution: "pretty-ms@npm:9.3.1"
   dependencies:
@@ -6501,15 +6280,6 @@ __metadata:
   version: 4.1.2
   resolution: "readdirp@npm:4.1.2"
   checksum: 60a14f7619dec48c9c850255cd523e2717001b0e179dc7037cfa0895da7b9e9ab07532d324bfb118d73a710887d1e35f79c495fa91582784493e085d18c72c62
-  languageName: node
-  linkType: hard
-
-"registry-auth-token@npm:5.1.1":
-  version: 5.1.1
-  resolution: "registry-auth-token@npm:5.1.1"
-  dependencies:
-    "@pnpm/npm-conf": "npm:^3.0.2"
-  checksum: 86b0f7fd87d327cb4177fee69bcf96563147ea72e206bc9c7a6a50a51c785a31b83a6c45956a489ed292d23b908b2755a075d0b2f7fec1ba91b1fb800b24cee3
   languageName: node
   linkType: hard
 
@@ -6801,15 +6571,6 @@ __metadata:
   version: 4.0.5
   resolution: "semver-regex@npm:4.0.5"
   checksum: c270eda133691dfaab90318df995e96222e4c26c47b17f7c8bd5e5fe88b81ed67b59695fe27546e0314b0f0423c7faed1f93379ad9db47c816df2ddf770918ff
-  languageName: node
-  linkType: hard
-
-"semver@npm:7.8.5":
-  version: 7.8.5
-  resolution: "semver@npm:7.8.5"
-  bin:
-    semver: bin/semver.js
-  checksum: b1f3127a5be8125a94f37188b361c212466c292c6910adce3ec106cff5dc211ccaedc4739c11bb70fda59d6fc1f040a9bca289f4e093451521a2372e5231fe0c
   languageName: node
   linkType: hard
 
@@ -7497,13 +7258,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ts-deepmerge@npm:^8.0.0":
-  version: 8.0.0
-  resolution: "ts-deepmerge@npm:8.0.0"
-  checksum: 35a055308751c093ff1f7d7ae8f8ec10d6b90b79955127e170dbc967809e3266e3cb62f446079741f82e54a9a9556cb564c55adde90cc6f93021619656a59e6f
-  languageName: node
-  linkType: hard
-
 "ts-interface-checker@npm:^0.1.9":
   version: 0.1.13
   resolution: "ts-interface-checker@npm:0.1.13"
@@ -7992,15 +7746,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"which-command@npm:^0.1.0":
-  version: 0.1.0
-  resolution: "which-command@npm:0.1.0"
-  bin:
-    which-command: cli.js
-  checksum: 15b3952b466961ce147de197ef2d40d0f6242dac7d07785936541f7b8f6dba632bd6eab0abac362b80efc0029c536d044717c10aa96562831b0d0a7d548a0029
-  languageName: node
-  linkType: hard
-
 "which@npm:^2.0.1":
   version: 2.0.2
   resolution: "which@npm:2.0.2"
@@ -8191,7 +7936,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yoctocolors@npm:^2.1.1, yoctocolors@npm:^2.2.0":
+"yoctocolors@npm:^2.1.1":
   version: 2.2.0
   resolution: "yoctocolors@npm:2.2.0"
   checksum: ca179aa83401aa0711f268fda38145a44c828e612a5f5265439efb5796cd63c46ca6b786bae3b74c75440a48518c36b5b23cba7fbb76ea8af5a9f85f830a5754

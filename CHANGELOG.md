@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.15.8](https://github.com/myparcelnl/ts-utils/compare/v1.15.7...v1.15.8) (2026-11-18)
+
+### ⚠ BREAKING CHANGES
+
+* - requires Node.js 24.21 or later; Node.js 22 is no longer supported
+
+### build
+
+* move from Yarn to pnpm and require Node.js 24 ([#205](https://github.com/myparcelnl/ts-utils/issues/205)) ([0ee0dbe](https://github.com/myparcelnl/ts-utils/commit/0ee0dbe5cf9095827e148011a6cb663818989584)), references [myparcelnl/constants#210](https://github.com/myparcelnl/constants/issues/210)
+
 ## [1.15.7](https://github.com/myparcelnl/ts-utils/compare/v1.15.6...v1.15.7) (2026-11-12)
 
 ## [1.15.6](https://github.com/myparcelnl/ts-utils/compare/v1.15.5...v1.15.6) (2026-11-12)

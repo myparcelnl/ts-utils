@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-npx -q ctix create -w --noBackup -a src
-npx -q lint-staged
-npx -q yarn test:run
+pnpm dlx ctix create -w --noBackup -a src
+pnpm exec lint-staged
+pnpm test:run
